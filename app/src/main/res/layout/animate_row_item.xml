@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="2dp"
+    android:id="@+id/container"
+    android:background="@drawable/pic2">
+
+    <ImageView
+        android:src="@drawable/loading_shape"
+        android:id="@+id/thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:id="@+id/anime_name" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="16dp"
+            android:textColor="#f2eeee"
+            android:layout_marginTop="5dp"
+            android:id="@+id/category" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rating"
+            android:background="@drawable/rating_background"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_star_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Studio"
+            android:textSize="15dp"
+            android:textColor="#f2eeee"
+            android:layout_marginTop="5dp"
+            android:id="@+id/studio"/>
+
+    </LinearLayout>
+
+</LinearLayout>
